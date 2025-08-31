@@ -196,7 +196,6 @@ int main(int argc, char* argv[]) {
   while (true) {
     batch_no++;
     
-
     // Do inserts
     int num_actual_inserts =
         std::min(num_inserts_per_batch, total_num_keys - i);
