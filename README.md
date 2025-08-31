@@ -42,6 +42,10 @@ To run the benchmark
 You can also run this benchmark on your own dataset. Your keys will need to be in either binary format or text format (one key per line). You will need to modify `#define KEY_TYPE double` to `#define KEY_TYPE [your data type]` in `src/benchmark/main.cpp`.      
 You can compute the distribution of keyset with GMM that we provide  or replace it with other methods.
 
+## Datasets
+The four datasets we used in paper are publicly available (all in binary format):
+
+
 ## Publication
 
 ## Acknowledgements
