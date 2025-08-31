@@ -43,7 +43,20 @@ You can also run this benchmark on your own dataset. Your keys will need to be i
 You can compute the distribution of keyset with GMM that we provide  or replace it with other methods.
 
 ## Datasets
-The four datasets we used in paper are publicly available (all in binary format):
+The datasets we used in paper are publicly available (all in binary format):
+- [LONGLAT](https://registry.opendata.aws/osm/)
+- [LONGITUDES](https://drive.google.com/file/d/1zc90sD6Pze8UM_XYDmNjzPLqmKly8jKl/view?usp=sharing)
+- [OSM](https://s2geometry.io/)
+- [BOOK](https://www.kaggle.com/ucffool/amazon-sales-rank-data-for-print-and-kindle-books)
+- [GOWALLA](https://snap.stanford.edu/data/loc-gowalla.html)
+
+|          | LLT   | GOW   | LTD   | OSM    | BOOK   |
+|----------|-------|-------|-------|--------|--------|
+| Num Keys | 200M  | 6.4M  | 200M  | 400M   | 800M   |
+| Key Type | double| double| double| unint  | unint  |
+| Payload Size | 8byte | 8byte | 8byte | 8byte | 8byte |
+
+*Table: Statistics of datasets*
 
 
 ## Publication
