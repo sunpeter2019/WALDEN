@@ -22,6 +22,7 @@
 #include <tuple>
 #include <unordered_set>
 
+
 // Modify these if running your own workload
 #define KEY_TYPE double                          // need modifie
 //#define KEY_TYPE uint64_t 
